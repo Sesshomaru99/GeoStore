@@ -14,6 +14,13 @@ import { MatListModule } from '@angular/material/list';
 import { HomeComponent } from './home/home.component';
 import { ContactoComponent } from './contacto/contacto.component';
 import { AyudaComponent } from './ayuda/ayuda.component';
+import {MatTableModule} from '@angular/material/table';
+import {MatFormFieldModule} from '@angular/material/form-field';
+import {MatInputModule} from '@angular/material/input';
+
+
+
+
 
 @NgModule({
   declarations: [
@@ -21,7 +28,8 @@ import { AyudaComponent } from './ayuda/ayuda.component';
     NavegacionComponent,
     HomeComponent,
     ContactoComponent,
-    AyudaComponent
+    AyudaComponent,
+    
   ],
   imports: [
     BrowserModule,
@@ -32,7 +40,11 @@ import { AyudaComponent } from './ayuda/ayuda.component';
     MatButtonModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatTableModule,
+    MatFormFieldModule,
+    MatInputModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
