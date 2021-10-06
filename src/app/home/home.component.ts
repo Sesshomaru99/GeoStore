@@ -9,8 +9,14 @@ export interface Store {
 }
 
 const ELEMENT_DATA: Store[] = [
-  {name: 'Tienda la delfina', dir: 'Calle 6c 1467', geo: '132.125, 142.167'},
-  {name: 'Super mercado', dir: 'Calle 7a 1310', geo: '131.115, 112.167'},
+  {name: 'Tienda la Delfina', dir: 'Cra. 15 #7b-2 a, Cl. 7b #26, Zarzal, Valle del Cauca', geo: '4.395637, -76.075603'},
+  {name: 'Super Mercado Centenario', dir: 'Calle 7a ##15-04, Zarzal, Valle del Cauca', geo: '4.395019, -76.075822'},
+  {name: 'Tienda la Fortuna', dir: 'Calle 6C ##15 -12, Zarzal, Valle del Cauca', geo: '4.394698, -76.075897'},
+  {name: 'Dulceria Americana', dir: 'Cl. 7a #1539, Zarzal, Valle del Cauca', geo: '4.395118, -76.076088'},
+  {name: 'Tienda la esquina de Leo', dir: 'Carrera 15, Zarzal, Valle del Cauca', geo: '4.396060, -76.075419'},
+  {name: 'El Paisa', dir: 'Cra. 8 #13-08, Zarzal, Valle del Cauca', geo: '4.396108, -76.068648'},
+  {name: 'Supermercado Se Vende', dir: 'Zarzal, Valle del Cauca', geo: '4.394704, -76.069966'},
+
 
 ];
 
