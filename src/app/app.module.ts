@@ -17,6 +17,8 @@ import { AyudaComponent } from './ayuda/ayuda.component';
 import {MatTableModule} from '@angular/material/table';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import { MapaComponent } from './mapa/mapa.component';
+import { TiendasComponent } from './tiendas/tiendas.component';
 
 
 
@@ -29,6 +31,8 @@ import {MatInputModule} from '@angular/material/input';
     HomeComponent,
     ContactoComponent,
     AyudaComponent,
+    MapaComponent,
+    TiendasComponent,
     
   ],
   imports: [
